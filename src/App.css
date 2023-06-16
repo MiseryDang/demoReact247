@@ -1,17 +1,20 @@
-.column{
+.column {
   display: inline-block;
   width: 31%;
   padding: 1%;
 }
-.column button{
+
+.column button {
   background-color: black;
   color: white;
   width: 100%;
 }
-.column img{
+
+.column img {
   width: 100%;
 }
-.footer p{
+
+.footer p {
   width: 100%;
   background-color: goldenrod;
   color: white;
@@ -42,9 +45,11 @@
 .navigation li {
   float: left;
 }
-.active{
+
+.active {
   background-color: goldenrod;
 }
+
 .navigation a {
   display: block;
   color: white;
@@ -83,17 +88,12 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
 }
-.footer {
-  background-color: #f2f2f2;
-  padding: 20px;
-}
-.footer-container {
-  margin-top: 20px;
-}
+
 .overlay {
   position: fixed;
   top: 0;
@@ -105,10 +105,12 @@
   visibility: hidden;
   opacity: 0;
 }
+
 .overlay:target {
   visibility: visible;
   opacity: 1;
 }
+
 .popup {
   margin: 70px auto;
   padding: 5px;
@@ -118,12 +120,17 @@
   position: relative;
   transition: all 5s ease-in-out;
 }
-.popup img{ width: 100%;}
+
+.popup img {
+  width: 100%;
+}
+
 .popup h2 {
   margin-top: 0;
   color: #333;
   font-family: Tahoma, Arial, sans-serif;
 }
+
 .popup .close {
   position: absolute;
   top: 20px;
@@ -134,7 +141,11 @@
   text-decoration: none;
   color: #333;
 }
-.popup .close:hover {color: #06D85F;}
+
+.popup .close:hover {
+  color: #06D85F;
+}
+
 .popup .content {
   max-height: 30%;
   overflow: auto;

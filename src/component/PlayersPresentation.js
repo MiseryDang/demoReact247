@@ -14,7 +14,7 @@ export default function PlayersPresentation({ players }) {
                         <button onClick={() => { setPlayer(players) }}>
                             <a href='#popup1' id='openPopUp'>Detail</a>
                         </button>
-
+                        
                     </div>
                 </div>
             )
