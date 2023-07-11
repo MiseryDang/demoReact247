@@ -1,18 +1,18 @@
+
 import './App.css';
-import Navigation from './component/Navigation';
-import Players from './component/Players';
-import Detail from './component/Detail';
-import Footer from './Footer';
-import {
-    Routes,
-    Route,
-  } from "react-router-dom";
-  
+import logo from './logo.svg';
+import Navigation from './components/Navigation';
+import Players from './Players';
+import Main from './components/Main';
+import Footer  from './components/Footer';
+import Detail from './components/Detail';
+//import PlayersPresentation from './components/PlayersPresentetion';
+import{Routes,Route} from 'react-router-dom';
 function App(){
-    return(
-<div >
-<Navigation/>
-<Routes>
+  return(
+    <div>
+      <Navigation />
+      <Routes>
           <Route path='/' element={<Players/>}> 
       </Route>
         <Route path='/detail/:id' element={<Detail/>}></Route>
@@ -21,9 +21,10 @@ function App(){
       <Footer/>
     </div>
 
-
-
-
-    );
+  );
 }
+
 export default App;
+
+
+
